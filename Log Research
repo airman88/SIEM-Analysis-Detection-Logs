@@ -1,0 +1,37 @@
+Cross Platform Log Sources:
+
+Official SIEM Vendor Logs
+
+Splunk: https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/WelcometotheSearchTutorial
+
+Elastic (ELK Stack): https://www.elastic.co/beats/
+
+Graylog Simulator: https://docs.graylog.org/en/latest/pages/simulator.html
+
+IBM QRadar: https://www.ibm.com/docs/en/dsm?topic=overview-event-sample-files
+
+Wazuh: https://documentation.wazuh.com/current/proof-of-concept-guide/index.html
+
+Microsoft Sentinel: https://learn.microsoft.com/en-us/azure/sentinel/simulate-attack
+
+Public Cybersecurity Datasets
+
+MITRE ATT&CK Caldera: https://github.com/mitre/caldera
+
+Honeynet Project: https://www.honeynet.org/projects/data-sets/
+
+Digital Corpora: https://digitalcorpora.org/
+
+Stratosphere IPS: https://www.stratosphereips.org/datasets-overview
+
+Zeek Logs: https://docs.zeek.org/en/current/examples/index.html
+
+Malware Traffic Analysis: https://www.malware-traffic-analysis.net/
+
+Cloud Logs
+
+AWS CloudTrail: https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-sample-logs.html
+
+Azure Sentinel Simulation: https://learn.microsoft.com/en-us/azure/sentinel/simulate-attack
+
+Google Cloud Logging: https://cloud.google.com/logging/docs/view/logs-explorer-interface
