@@ -1,0 +1,26 @@
+/*Windows Server JSON Log*/
+[ 
+  {
+    "timestamp": "2025-09-05T15:22:31Z",
+    "event_id": 4625,
+    "log_source": "Windows-Security",
+    "severity": "Medium",
+    "username": "Administrator",
+    "source_ip": "192.168.10.45",
+    "event_type": "Failed Login",
+    "event_description": "An account failed to log on. Logon Type: 10 (Remote Interactive).",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:25:11Z",
+    "event_id": 4688,
+    "log_source": "Sysmon",
+    "severity": "High",
+    "username": "jdoe",
+    "process_name": "powershell.exe",
+    "command_line": "powershell -EncodedCommand aW52b2tlIGV2aWw=",
+    "event_type": "Process Creation",
+    "event_description": "Suspicious PowerShell execution detected.",
+    "device": "Windows-Server-01"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-09-05T15:32:15Z",
+    "signature_id": 1002025,
+    "alert": {
+      "severity": "Critical",
+      "signature": "ET EXPLOIT Possible CVE-2024-1234 Exploit Attempt",
+      "category": "Exploit"
+    },
+    "src_ip": "203.0.113.55",
+    "src_port": 45522,
+    "dest_ip": "192.168.1.15",
+    "dest_port": 80,
+    "protocol": "TCP",
+    "device": "IDS-Cluster-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:35:45Z",
+    "signature_id": 1002010,
+    "alert": {
+      "severity": "Medium",
+      "signature": "ET SCAN SSH Brute Force Detected",
+      "category": "Reconnaissance"
+    },
+    "src_ip": "203.0.113.90",
+    "src_port": 52140,
+    "dest_ip": "192.168.1.10",
+    "dest_port": 22,
+    "protocol": "TCP",
+    "device": "IDS-Cluster-01"
+  }
+]

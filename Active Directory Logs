@@ -1,0 +1,4 @@
+timestamp,event_id,username,src_ip,result,device
+2025-09-05T15:36:01Z,4624,Administrator,192.168.10.45,Success,AD-Server-01
+2025-09-05T15:37:12Z,4625,guest,203.0.113.50,Failed,AD-Server-01
+2025-09-05T15:38:42Z,4768,jdoe,192.168.10.75,Kerberos_Ticket_Issued,AD-Server-01

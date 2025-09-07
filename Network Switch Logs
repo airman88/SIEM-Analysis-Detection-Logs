@@ -1,0 +1,4 @@
+Sep 05 15:26:01 Switch-01 %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+Sep 05 15:26:15 Switch-01 %SECURITY-4-PORTSEC_VIOLATION: Security violation occurred, port Gi0/1
+Sep 05 15:26:15 Switch-01 %SECURITY-6-PSECURE_VIOLATION: MAC address 00:1A:2B:3C:4D:5E detected on port Gi0/1
+Sep 05 15:27:00 Switch-01 %SYS-5-CONFIG_I: Configured from console by admin on vty0
