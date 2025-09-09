@@ -1,5 +1,4 @@
-
-[ 
+[
   {
     "timestamp": "2025-09-05T15:22:31Z",
     "event_id": 4625,
@@ -12,6 +11,28 @@
     "device": "Windows-Server-01"
   },
   {
+    "timestamp": "2025-09-05T15:23:05Z",
+    "event_id": 4624,
+    "log_source": "Windows-Security",
+    "severity": "Low",
+    "username": "jdoe",
+    "source_ip": "192.168.10.75",
+    "event_type": "Successful Login",
+    "event_description": "An account was successfully logged on. Logon Type: 10 (Remote Interactive).",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:24:12Z",
+    "event_id": 4740,
+    "log_source": "Windows-Security",
+    "severity": "High",
+    "username": "guest",
+    "source_ip": "203.0.113.55",
+    "event_type": "Account Lockout",
+    "event_description": "A user account was locked out due to multiple failed login attempts.",
+    "device": "Windows-Server-01"
+  },
+  {
     "timestamp": "2025-09-05T15:25:11Z",
     "event_id": 4688,
     "log_source": "Sysmon",
@@ -21,6 +42,62 @@
     "command_line": "powershell -EncodedCommand aW52b2tlIGV2aWw=",
     "event_type": "Process Creation",
     "event_description": "Suspicious PowerShell execution detected.",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:26:40Z",
+    "event_id": 4688,
+    "log_source": "Sysmon",
+    "severity": "Medium",
+    "username": "admin1",
+    "process_name": "cmd.exe",
+    "command_line": "cmd /c net user testuser /add",
+    "event_type": "Process Creation",
+    "event_description": "Potential user account creation via command line.",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:27:15Z",
+    "event_id": 4625,
+    "log_source": "Windows-Security",
+    "severity": "Medium",
+    "username": "invaliduser",
+    "source_ip": "198.51.100.78",
+    "event_type": "Failed Login",
+    "event_description": "An account failed to log on. Logon Type: 3 (Network).",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:28:30Z",
+    "event_id": 4698,
+    "log_source": "Windows-Security",
+    "severity": "High",
+    "username": "admin1",
+    "task_name": "MalwareScanJob",
+    "event_type": "Scheduled Task Creation",
+    "event_description": "A scheduled task was created, potentially for persistence.",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:29:05Z",
+    "event_id": 4648,
+    "log_source": "Windows-Security",
+    "severity": "High",
+    "username": "jdoe",
+    "source_ip": "192.168.10.75",
+    "event_type": "Logon Using Explicit Credentials",
+    "event_description": "A logon attempt was made using explicit credentials.",
+    "device": "Windows-Server-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:30:12Z",
+    "event_id": 4697,
+    "log_source": "Sysmon",
+    "severity": "Medium",
+    "username": "serviceaccount",
+    "process_name": "svchost.exe",
+    "event_type": "Service Installed",
+    "event_description": "A new service was installed on the system.",
     "device": "Windows-Server-01"
   }
 ]
