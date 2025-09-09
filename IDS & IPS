@@ -28,5 +28,96 @@
     "dest_port": 22,
     "protocol": "TCP",
     "device": "IDS-Cluster-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:36:30Z",
+    "signature_id": 1003001,
+    "alert": {
+      "severity": "Info",
+      "signature": "Normal HTTP GET Request",
+      "category": "Normal Traffic"
+    },
+    "src_ip": "192.168.1.100",
+    "src_port": 53412,
+    "dest_ip": "192.168.1.15",
+    "dest_port": 80,
+    "protocol": "TCP",
+    "device": "IDS-Cluster-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:37:10Z",
+    "signature_id": 1003002,
+    "alert": {
+      "severity": "Info",
+      "signature": "Routine DNS Query",
+      "category": "Normal Traffic"
+    },
+    "src_ip": "192.168.1.101",
+    "src_port": 60234,
+    "dest_ip": "192.168.1.53",
+    "dest_port": 53,
+    "protocol": "UDP",
+    "device": "IDS-Cluster-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:38:20Z",
+    "signature_id": 1002050,
+    "alert": {
+      "severity": "Critical",
+      "signature": "ET EXPLOIT Possible CVE-2025-5678 Remote Code Execution",
+      "category": "Exploit"
+    },
+    "src_ip": "203.0.113.200",
+    "src_port": 61023,
+    "dest_ip": "192.168.1.30",
+    "dest_port": 3389,
+    "protocol": "TCP",
+    "device": "IDS-Cluster-02"
+  },
+  {
+    "timestamp": "2025-09-05T15:39:05Z",
+    "signature_id": 1003003,
+    "alert": {
+      "severity": "Info",
+      "signature": "Normal SMTP Connection",
+      "category": "Normal Traffic"
+    },
+    "src_ip": "192.168.1.102",
+    "src_port": 50234,
+    "dest_ip": "192.168.1.25",
+    "dest_port": 25,
+    "protocol": "TCP",
+    "device": "IDS-Cluster-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:40:10Z",
+    "signature_id": 1002060,
+    "alert": {
+      "severity": "Medium",
+      "signature": "ET SCAN SMB Null Session Attempt",
+      "category": "Reconnaissance"
+    },
+    "src_ip": "198.51.100.90",
+    "src_port": 49912,
+    "dest_ip": "192.168.1.35",
+    "dest_port": 445,
+    "protocol": "TCP",
+    "device": "IDS-Cluster-01"
+  },
+  {
+    "timestamp": "2025-09-05T15:41:50Z",
+    "signature_id": 1003004,
+    "alert": {
+      "severity": "Info",
+      "signature": "Normal ICMP Ping",
+      "category": "Normal Traffic"
+    },
+    "src_ip": "192.168.1.103",
+    "src_port": 0,
+    "dest_ip": "192.168.1.1",
+    "dest_port": 0,
+    "protocol": "ICMP",
+    "device": "IDS-Cluster-01"
   }
 ]
+
