@@ -1,5 +1,24 @@
 Sep 05 15:23:14 ubuntu-server sshd[13245]: Failed password for invalid user admin from 203.0.113.55 port 45872 ssh2
 Sep 05 15:23:17 ubuntu-server sshd[13245]: Failed password for invalid user root from 203.0.113.55 port 45872 ssh2
+Sep 05 15:23:22 ubuntu-server sshd[13245]: Failed password for invalid user test from 203.0.113.55 port 45872 ssh2
+Sep 05 15:23:27 ubuntu-server sshd[13245]: Accepted password for jdoe from 192.168.10.75 port 50234 ssh2
 Sep 05 15:24:01 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root by jdoe(uid=1001)
+Sep 05 15:24:05 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root by admin1(uid=1002)
 Sep 05 15:24:10 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+Sep 05 15:24:15 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+Sep 05 15:24:30 ubuntu-server sshd[13250]: Accepted publickey for jdoe from 192.168.10.75 port 50235 ssh2
+Sep 05 15:25:00 ubuntu-server sshd[13251]: Failed password for invalid user guest from 198.51.100.45 port 51234 ssh2
 Sep 05 15:25:40 ubuntu-server kernel: [102342.123456] IN=eth0 OUT= MAC=00:0c:29:58:67:aa SRC=203.0.113.77 DST=192.168.10.5 LEN=48 PROTO=TCP SPT=443 DPT=50120 WINDOW=1024 RES=0x00 SYN URGP=0
+Sep 05 15:25:45 ubuntu-server kernel: [102345.654321] IN=eth0 OUT= MAC=00:0c:29:58:67:aa SRC=198.51.100.90 DST=192.168.10.6 LEN=52 PROTO=TCP SPT=22 DPT=50220 WINDOW=2048 RES=0x00 SYN URGP=0
+Sep 05 15:26:05 ubuntu-server sshd[13252]: Failed password for invalid user root from 203.0.113.100 port 52345 ssh2
+Sep 05 15:26:12 ubuntu-server sshd[13252]: Accepted password for admin1 from 192.168.10.46 port 50312 ssh2
+Sep 05 15:26:20 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root by admin1(uid=1002)
+Sep 05 15:26:35 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+Sep 05 15:27:10 ubuntu-server kernel: [102360.987654] IN=eth0 OUT= MAC=00:0c:29:58:67:aa SRC=203.0.113.55 DST=192.168.10.10 LEN=60 PROTO=TCP SPT=80 DPT=50122 WINDOW=8192 RES=0x00 ACK URGP=0
+Sep 05 15:27:30 ubuntu-server sshd[13253]: Accepted password for jdoe from 192.168.10.75 port 50236 ssh2
+Sep 05 15:28:05 ubuntu-server sshd[13254]: Failed password for invalid user test from 198.51.100.45 port 51333 ssh2
+Sep 05 15:28:20 ubuntu-server sudo: pam_unix(sudo:session): session opened for user root by jdoe(uid=1001)
+Sep 05 15:28:35 ubuntu-server sudo: pam_unix(sudo:session): session closed for user root
+Sep 05 15:29:00 ubuntu-server kernel: [102380.123456] IN=eth0 OUT= MAC=00:0c:29:58:67:aa SRC=198.51.100.78 DST=192.168.10.15 LEN=48 PROTO=TCP SPT=3389 DPT=50130 WINDOW=1024 RES=0x00 SYN URGP=0
+Sep 05 15:29:25 ubuntu-server sshd[13255]: Accepted publickey for admin1 from 192.168.10.46 port 50315 ssh2
+Sep 05 15:30:00 ubuntu-server sshd[13256]: Failed password for invalid user guest from 203.0.113.200 port 51450 ssh2
