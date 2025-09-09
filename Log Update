@@ -1,0 +1,89 @@
+Windows Security Logs
+
+Original event: Failed login for Administrator
+
+Changes made:
+
+Added multiple failed login attempts from different IPs.
+
+Added successful login events for normal users.
+
+Included Logon Type details (e.g., Remote Interactive, Network).
+
+Added account lockouts for repeated failures.
+
+QA note: Analysts should verify correlation of failed vs successful logins, track IPs, and identify suspicious patterns like multiple failures or lockouts.
+
+Windows Sysmon Logs
+
+Original event: Suspicious PowerShell execution
+
+Changes made:
+
+Added multiple process creation events.
+
+Included command line variations, such as encoded PowerShell commands.
+
+Added other processes like cmd.exe, svchost.exe for context.
+
+Included account names to provide full context.
+
+QA note: Check for unusual or encoded command executions, correlate with user accounts, and flag abnormal activity.
+
+Linux Server Logs
+
+Original event: Failed SSH login and sudo sessions
+
+Changes made:
+
+Expanded to multiple users and source IPs.
+
+Included both failed and successful login attempts.
+
+Added sudo session start and stop events.
+
+Added kernel/network activity events (e.g., TCP connections).
+
+QA note: Verify authentication failures vs successes, correlate with network activity for potential intrusion attempts.
+
+Firewall Logs
+
+Original event: Basic allow/deny entries
+
+Changes made:
+
+Expanded with multiple allowed and denied TCP/UDP events.
+
+Varied source/destination IPs and ports.
+
+Added specific rules and reasons (e.g., ALLOW_WEB_TRAFFIC, BLOCK_RDP, BLOCK_DNS_TUNNELING).
+
+QA note: Analysts should verify that allow/deny rules correspond to realistic traffic and ensure suspicious connections are blocked.
+
+IDS/IPS Logs
+
+Original event: Exploit and scan alerts
+
+Changes made:
+
+Added multiple IDS alerts with different severity levels.
+
+Included both real and simulated attack signatures.
+
+Varied source/destination IPs and ports.
+
+QA note: Ensure alerts are triggered and categorized properly. Analysts should check correlation of attack types and identify false positives.
+
+Network/Switch Logs
+
+Original event: Interface and port security events
+
+Changes made:
+
+Expanded interface state changes (up/down).
+
+Added port security violations with MAC addresses.
+
+Added configuration change events.
+
+QA note: Verify port security violations and interface events are logged accurately. Confirm MAC addresses and config changes match expected behavior.
